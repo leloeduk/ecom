@@ -48,7 +48,7 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
 
       emit(ProductLoaded(products));
     } catch (e) {
-      emit(ProductError('Erreur de chargement'));
+      emit(ProductError('Erreur de chargement ...'));
     }
   }
 }
