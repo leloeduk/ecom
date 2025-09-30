@@ -394,7 +394,7 @@ class ProductCard extends StatelessWidget {
           children: [
             Icon(Icons.check_circle, color: Colors.green[400]),
             const SizedBox(width: 8),
-            Expanded(child: Text('$productName ajouté au panier !')),
+            Expanded(child: Text('$productName ajouté au panier ... !')),
           ],
         ),
         backgroundColor: Colors.grey[900],
